@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Header = (props) => {
   return (
     <div>
-      <h3 className="header">Elevation Distilling</h3>
+      <h3 className="header">Elevation Distilling®</h3>
       <div className="header-container">
         <Link id="header-link" to="/">
           Home
