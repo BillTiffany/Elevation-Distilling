@@ -14,7 +14,7 @@ import mug from "./images/espresso-mug.jpg";
 import shotglass from "./images/espresso-shot-paris.jpg";
 import shirt from "./images/shirts.jpg";
 
-const Shopcard = () => {
+const Shopcard = (props) => {
   return (
     <div>
       <h2 className="spirit-header">★★ Spirits ★★</h2>
@@ -28,7 +28,7 @@ const Shopcard = () => {
             $19.99
           </p>
         </p>
-        <button className="drink-btn" id="og-btn">
+        <button className="drink-btn" id="og-btn" onClick={props.pajamas}>
           Add to Cart
         </button>
       </div>
@@ -42,7 +42,7 @@ const Shopcard = () => {
             $39.99
           </p>
         </p>
-        <button className="drink-btn" id="big-btn">
+        <button className="drink-btn" id="big-btn" onClick={props.pajamas}>
           Add to Cart
         </button>
       </div>
@@ -56,7 +56,7 @@ const Shopcard = () => {
             $19.99
           </p>
         </p>
-        <button className="drink-btn" id="cit-btn">
+        <button className="drink-btn" id="cit-btn" onClick={props.pajamas}>
           Add to Cart
         </button>
       </div>
@@ -70,7 +70,7 @@ const Shopcard = () => {
             $19.99
           </p>
         </p>
-        <button className="drink-btn" id="spress-btn">
+        <button className="drink-btn" id="spress-btn" onClick={props.pajamas}>
           Add to Cart
         </button>
       </div>
@@ -84,7 +84,7 @@ const Shopcard = () => {
             $19.99
           </p>
         </p>
-        <button className="drink-btn" id="peach-btn">
+        <button className="drink-btn" id="peach-btn" onClick={props.pajamas}>
           Add to Cart
         </button>
       </div>
@@ -98,7 +98,7 @@ const Shopcard = () => {
             $19.99
           </p>
         </p>
-        <button className="drink-btn" id="gin-btn">
+        <button className="drink-btn" id="gin-btn" onClick={props.pajamas}>
           Add to Cart
         </button>
       </div>
@@ -113,7 +113,7 @@ const Shopcard = () => {
             <br></br>$9.99<br></br>1 pair
           </p>
         </p>
-        <button className="drink-btn" id="pink-btn">
+        <button className="drink-btn" id="pink-btn" onClick={props.pajamas}>
           Add to Cart
         </button>
       </div>
@@ -126,7 +126,7 @@ const Shopcard = () => {
             <br></br>$9.99<br></br>1 pair
           </p>
         </p>
-        <button className="drink-btn" id="blue-btn">
+        <button className="drink-btn" id="blue-btn" onClick={props.pajamas}>
           Add to Cart
         </button>
       </div>
@@ -139,7 +139,7 @@ const Shopcard = () => {
             <br></br>$9.99<br></br>1 pair
           </p>
         </p>
-        <button className="drink-btn" id="yellow-btn">
+        <button className="drink-btn" id="yellow-btn" onClick={props.pajamas}>
           Add to Cart
         </button>
       </div>
@@ -153,7 +153,7 @@ const Shopcard = () => {
             <br></br>$17.99<br></br>1 ea.
           </p>
         </p>
-        <button className="drink-btn" id="mug-btn">
+        <button className="drink-btn" id="mug-btn" onClick={props.pajamas}>
           Add to Cart
         </button>
       </div>
@@ -166,7 +166,7 @@ const Shopcard = () => {
             <br></br>$7.99<br></br>1 ounce ceramic
           </p>
         </p>
-        <button className="drink-btn" id="shot-btn">
+        <button className="drink-btn" id="shot-btn" onClick={props.pajamas}>
           Add to Cart
         </button>
       </div>
@@ -179,7 +179,7 @@ const Shopcard = () => {
             <br></br>$12.99<br></br>1 ea.
           </p>
         </p>
-        <button className="drink-btn" id="ogflask-btn">
+        <button className="drink-btn" id="ogflask-btn" onClick={props.pajamas}>
           Add to Cart
         </button>
       </div>
@@ -192,7 +192,7 @@ const Shopcard = () => {
             <br></br>$12.99<br></br>1 ea.
           </p>
         </p>
-        <button className="drink-btn" id="eflask-btn">
+        <button className="drink-btn" id="eflask-btn" onClick={props.pajamas}>
           Add to Cart
         </button>
       </div>
@@ -237,7 +237,7 @@ const Shopcard = () => {
             <option value="option 2">Velvet Purple Womens Med</option>
             <option value="option 2">Velvet Purple Womens Sm</option>
           </select>
-          <button className="drink-btn" id="shirt-btn">
+          <button className="drink-btn" id="shirt-btn" onClick={props.pajamas}>
             Add to Cart
           </button>
         </div>

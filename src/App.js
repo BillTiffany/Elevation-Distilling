@@ -39,6 +39,7 @@ export default function App() {
       "While we appreciate your enthusiasm, you are too young. Come back and visit us when you're 21!"
     );
   }
+
   if (verification === true) {
     return (
       <div className="App">
