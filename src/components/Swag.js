@@ -6,7 +6,7 @@ import swag3 from "../images/tower.jpg";
 const Swag = () => {
   return (
     <div>
-      <h1>Swag</h1>
+      <h1 className="swaghead">Swag</h1>
       <h2>
         Whether it's a night out on the town or a day at the beach, we have the
         swag you need to look sharp and sip delicious. <br></br>Shades, Shots

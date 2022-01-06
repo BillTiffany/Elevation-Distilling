@@ -1,16 +1,9 @@
 import React from "react";
+import Popup from "reactjs-popup";
+import "reactjs-popup/dist/index.css";
 
-const Popup = (props) => {
-  return (
-    <div className="box-container">
-      <div className="verify-box">
-        <button className="button-yes" onClick={props.verUser}>
-          I am 21 or over
-        </button>
-        <button className="button-no">I am under 21</button>
-      </div>
-    </div>
-  );
-};
-
-export default Popup;
+export default () => (
+  <Popup trigger={<button> I am 21! or over</button>} position="right center">
+    <div>Popup content here !!</div>
+  </Popup>
+);

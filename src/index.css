@@ -21,7 +21,7 @@ code {
 }
 
 h1 {
-  padding: 5px 5px 5px 5px;
+  padding: 10px;
   width: fit-content;
   max-width: 90vw;
   margin-bottom: 10px;
@@ -38,7 +38,7 @@ h1 {
 
 h2 {
   margin: 10px 0 10px 0;
-  padding: 5px 5px 5px 5px;
+  padding: 10px;
   width: 93vw;
   margin-left: auto;
   margin-right: auto;
@@ -67,8 +67,7 @@ h2 {
   width: fit-content;
   margin-right: auto;
   margin-left: auto;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding: 10px;
   color: white;
   font-size: 60px;
   border: 5px solid #a98e60;
@@ -79,6 +78,7 @@ h2 {
     rgba(0, 0, 0, 0.3) 0 1px 3px, rgba(0, 0, 0, 0.15) 0 3px 5px,
     rgba(0, 0, 0, 0.2) 0 5px 10px, rgba(0, 0, 0, 0.2) 0 10px 10px,
     rgba(0, 0, 0, 0.1) 0 20px 20px;
+  letter-spacing: 2px;
 }
 
 .og-pic {
@@ -103,32 +103,27 @@ h2 {
 
 .footer-container {
   color: #ffffff;
-  font-size: 12px;
-  /* width: contain; */
   background: black;
-  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
-    #fffc60 0px 0px 75px;
-  align-content: center;
+  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px;
   width: 90vw;
-  padding: 10px 0 10px 0;
+  padding: 10px;
   border: 5px solid #a98e60;
-  letter-spacing: -1px;
 }
 
 #footer-link {
-  font-size: 18px;
-  margin-left: 2em;
+  font-size: 20px;
   color: white;
-  display: inline-block;
+  padding-right: 20px;
 }
 
 #header-link {
-  font-size: 15px;
+  font-size: 18px;
   margin-top: 1vh;
   margin-left: 2vw;
   color: white;
   display: inline-block;
   padding: 2px;
+  letter-spacing: 0.7px;
 }
 
 .video-responsive {
@@ -246,10 +241,11 @@ h2 {
 }
 
 .button-yes {
-  /* grid-area: btny; */
-  font-size: 20px;
+  font-family: Limelight;
+  font-size: 18px;
   width: 25vw;
   height: 20vh;
+  text-align: fit-content;
   background-color: black;
   color: white;
   border: 5px solid #a98e60;
@@ -257,8 +253,8 @@ h2 {
 }
 
 .button-no {
-  /* grid-area: btnn; */
-  font-size: 20px;
+  font-family: Limelight;
+  font-size: 18px;
   width: 25vw;
   height: 20vh;
   background-color: black;
@@ -280,6 +276,7 @@ h2 {
 .verifytext {
   text-align: center;
   max-width: fit-content;
+  padding: 10px;
 }
 
 .buttonbox {
@@ -290,12 +287,152 @@ h2 {
   background-color: black;
   text-align: center;
   height: fit-content;
+  width: fit-content;
   font-size: 60px;
   border: 5px solid #a98e60;
-  padding: 10px 0 10px 0;
+  padding: 10px;
   text-shadow: #ccc 0 1px 0, #c9c9c9 0 2px 0, #bbb 0 3px 0, #b9b9b9 0 4px 0,
     #aaa 0 5px 0, rgba(0, 0, 0, 0.1) 0 6px 1px, rgba(0, 0, 0, 0.1) 0 0 5px,
     rgba(0, 0, 0, 0.3) 0 1px 3px, rgba(0, 0, 0, 0.15) 0 3px 5px,
     rgba(0, 0, 0, 0.2) 0 5px 10px, rgba(0, 0, 0, 0.2) 0 10px 10px,
     rgba(0, 0, 0, 0.1) 0 20px 20px;
+}
+
+.socials {
+  background-color: black;
+  border: 5px solid #a98e60;
+  width: fit-content;
+  margin-top: 20px;
+}
+
+#sbox {
+  width: 30px;
+  border-right: none;
+  border-left: none;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: space-between;
+}
+
+.drink-pic {
+  height: 30vh;
+  border: 5px solid #a98e60;
+}
+
+.drink-pic:active {
+  transform: (1, 1);
+}
+
+.shirt-card {
+  background-color: black;
+  width: fit-content;
+  display: inline-block;
+  height: fit-content;
+  border: 5px solid #a98e60;
+  margin: 30px;
+  padding: 10px;
+}
+
+.drink-card {
+  background-color: black;
+  width: fit-content;
+  display: inline-block;
+  height: fit-content;
+  border: 5px solid #a98e60;
+  margin: 30px;
+  padding: 10px;
+}
+
+.drink-btn {
+  color: white;
+  font-size: 18px;
+  font-family: Limelight;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgb(250, 204, 65) 100%
+  );
+  margin-top: 35px;
+  /* border: 5px solid #a98e60; */
+}
+
+.description {
+  font-size: 30px;
+  margin-top: 10px;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 2px 2px 2px rgba(206, 89, 55, 0);
+}
+
+.card-text {
+  font-size: 20px;
+  margin-top: 10px;
+  font-family: Tradewinds;
+  font-weight: bold;
+}
+
+.spirit-header {
+  width: fit-content;
+  padding: 20px;
+  font-family: Limelight;
+  /* border: rgb(255, 0, 0) 2px solid;
+  outline: #a98e60 5px solid; */
+}
+
+.footertext {
+  margin-left: auto;
+  font-size: 12px;
+  text-shadow: none;
+  letter-spacing: 1.5px;
+  border-bottom: 1px solid #a98e60;
+}
+
+.espresso-blue {
+  border: teal 2px solid;
+  outline: #a98e60 5px solid;
+}
+
+.og-red {
+  border: rgb(160, 6, 6) 2px solid;
+  outline: #a98e60 5px solid;
+}
+
+.peach-header {
+  border: rgb(235, 158, 34) 2px solid;
+  outline: #a98e60 5px solid;
+}
+
+.cit-header {
+  border: rgb(255, 238, 0) 2px solid;
+  outline: #a98e60 5px solid;
+}
+
+.ginblue {
+  border: rgb(49, 228, 189) 2px solid;
+  outline: #a98e60 5px solid;
+}
+
+.swaghead {
+  border: rgb(247, 239, 255) 2px solid;
+  outline: #a98e60 5px solid;
+}
+
+.abouthead {
+  border: deepskyblue 2px solid;
+  outline: #a98e60 5px solid;
+}
+
+.homehead {
+  border: deepskyblue 2px solid;
+  outline: #a98e60 5px solid;
+}
+
+#selectList {
+  background-color: black;
+  color: #b19b21;
+  border: #a98e60 5px solid;
+  margin-right: 10px;
+  font-weight: bold;
+  font-family: Tradewinds;
+  font-size: 16px;
 }

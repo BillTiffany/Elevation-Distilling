@@ -9,7 +9,7 @@ import EspressoEmbed from "./espressoembed";
 const Layout = () => {
   return (
     <div>
-      <h1>Salt City Espresso®</h1>
+      <h1 className="espresso-blue">Salt City Espresso®</h1>
       <h2>
         Bold, smooth and elegant. Start the evening here or wake up your weekend
         with a splash in your morning Joe. We've crafted this espresso for

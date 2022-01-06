@@ -11,6 +11,7 @@ import SCVPeach from "./components/SCVPeach";
 import SCVCitrus from "./components/SCVCitrus";
 import LsGin from "./components/LsGin";
 import Swag from "./components/Swag";
+import Shop from "./components/Shop";
 // import Popup from "./components/Popup";
 
 export default function App() {
@@ -50,6 +51,7 @@ export default function App() {
           <Route path="SCVCitrus" element={<SCVCitrus />} />
           <Route path="LsGin" element={<LsGin />} />
           <Route path="swag" element={<Swag />} />
+          <Route path="shop" element={<Shop />} />
           <Route path="about" element={<AboutUs />} />
         </Routes>
         <Footer />

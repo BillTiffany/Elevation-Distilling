@@ -8,7 +8,7 @@ import pic5 from "../images/bearlake.JPG";
 const SCV = () => {
   return (
     <div>
-      <h1>The Original Salt City Vodka®</h1>
+      <h1 className="og-red">The Original Salt City Vodka®</h1>
       <h2>
         Our classic sipping Vodka that started it all. Enjoy it by the shot, add
         to your favorite cocktail or just slowly sip over ice. No matter how you

@@ -27,10 +27,13 @@ const Header = (props) => {
         <Link id="header-link" to="/swag">
           Swag
         </Link>
+        <Link id="header-link" to="/shop">
+          Shop
+        </Link>
         <Link id="header-link" to="/about">
           About Us
         </Link>
-        <Link to="/" id="header-link" onClick={props.logout}>
+        <Link to="/" id="header-link" className="logout" onClick={props.logout}>
           Logout
         </Link>
       </div>

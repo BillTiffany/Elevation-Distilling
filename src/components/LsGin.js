@@ -8,7 +8,7 @@ import gin5 from "../images/gin-ctail.jpg";
 const LsGin = () => {
   return (
     <div>
-      <h1>Lake Side Gin®</h1>
+      <h1 className="ginblue">Lake Side Gin®</h1>
       <h2>
         Our newest addition to the Elevation line is our Lakeside Gin. We took
         our time to craft this spirit just for your drinking pleasure. The high

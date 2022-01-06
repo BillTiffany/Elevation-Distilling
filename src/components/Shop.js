@@ -1,7 +1,13 @@
 import React from "react";
+import Shopcard from "../Shopcard";
 
 const Shop = () => {
-  return <div></div>;
+  return (
+    <div>
+      <h1>Salt City Marketplace</h1>
+      <Shopcard />
+    </div>
+  );
 };
 
 export default Shop;

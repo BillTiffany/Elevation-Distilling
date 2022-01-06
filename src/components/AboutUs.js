@@ -6,7 +6,7 @@ import dabois3 from "../images/friends.jpg";
 const AboutUs = () => {
   return (
     <div>
-      <h1>About Us</h1>
+      <h1 className="abouthead">About Us</h1>
       <h2>
         "Elevation Distilling is the realization of a dream... A dream that
         began when two friends risked everything to take the road less traveled.
@@ -18,9 +18,9 @@ const AboutUs = () => {
       </h2>
       <br />
       <div />
-      <img src={dabois3} alt="cheers3" className="cheers-pic" />
-      <img src={dabois} alt="cheers" className="cheers-pic" />
-      <img src={dabois2} alt="cheers2" className="cheers-pic" />
+      <img src={dabois3} alt="cheers3" className="scv-pic" />
+      <img src={dabois} alt="cheers" className="scv-pic" />
+      <img src={dabois2} alt="cheers2" className="scv-pic" />
       <br />
       <p className="scv-about-bio2">Cheers,</p>
       <br />
