@@ -8,7 +8,6 @@ import gin from "./images/gin-lake.jpg";
 import pink from "./images/shades-pink.jpg";
 import blue from "./images/shades-blue.jpg";
 import yellow from "./images/shades-yellow.jpg";
-import yellow2 from "./images/shades-yellow2.jpg";
 import flaskog from "./images/flask-og.jpg";
 import flaskspres from "./images/flask-spres.jpg";
 import mug from "./images/espresso-mug.jpg";
@@ -43,7 +42,7 @@ const Shopcard = () => {
             $39.99
           </p>
         </p>
-        <button className="drink-btn" id="og-btn">
+        <button className="drink-btn" id="big-btn">
           Add to Cart
         </button>
       </div>
@@ -57,7 +56,7 @@ const Shopcard = () => {
             $19.99
           </p>
         </p>
-        <button className="drink-btn" id="og-btn">
+        <button className="drink-btn" id="cit-btn">
           Add to Cart
         </button>
       </div>
@@ -71,7 +70,7 @@ const Shopcard = () => {
             $19.99
           </p>
         </p>
-        <button className="drink-btn" id="og-btn">
+        <button className="drink-btn" id="spress-btn">
           Add to Cart
         </button>
       </div>
@@ -85,7 +84,7 @@ const Shopcard = () => {
             $19.99
           </p>
         </p>
-        <button className="drink-btn" id="og-btn">
+        <button className="drink-btn" id="peach-btn">
           Add to Cart
         </button>
       </div>
@@ -99,7 +98,7 @@ const Shopcard = () => {
             $19.99
           </p>
         </p>
-        <button className="drink-btn" id="og-btn">
+        <button className="drink-btn" id="gin-btn">
           Add to Cart
         </button>
       </div>
@@ -114,7 +113,7 @@ const Shopcard = () => {
             <br></br>$9.99<br></br>1 pair
           </p>
         </p>
-        <button className="drink-btn" id="og-btn">
+        <button className="drink-btn" id="pink-btn">
           Add to Cart
         </button>
       </div>
@@ -127,7 +126,7 @@ const Shopcard = () => {
             <br></br>$9.99<br></br>1 pair
           </p>
         </p>
-        <button className="drink-btn" id="og-btn">
+        <button className="drink-btn" id="blue-btn">
           Add to Cart
         </button>
       </div>
@@ -140,7 +139,7 @@ const Shopcard = () => {
             <br></br>$9.99<br></br>1 pair
           </p>
         </p>
-        <button className="drink-btn" id="og-btn">
+        <button className="drink-btn" id="yellow-btn">
           Add to Cart
         </button>
       </div>
@@ -154,7 +153,7 @@ const Shopcard = () => {
             <br></br>$17.99<br></br>1 ea.
           </p>
         </p>
-        <button className="drink-btn" id="og-btn">
+        <button className="drink-btn" id="mug-btn">
           Add to Cart
         </button>
       </div>
@@ -167,7 +166,7 @@ const Shopcard = () => {
             <br></br>$7.99<br></br>1 ounce ceramic
           </p>
         </p>
-        <button className="drink-btn" id="og-btn">
+        <button className="drink-btn" id="shot-btn">
           Add to Cart
         </button>
       </div>
@@ -180,7 +179,7 @@ const Shopcard = () => {
             <br></br>$12.99<br></br>1 ea.
           </p>
         </p>
-        <button className="drink-btn" id="og-btn">
+        <button className="drink-btn" id="ogflask-btn">
           Add to Cart
         </button>
       </div>
@@ -193,7 +192,7 @@ const Shopcard = () => {
             <br></br>$12.99<br></br>1 ea.
           </p>
         </p>
-        <button className="drink-btn" id="og-btn">
+        <button className="drink-btn" id="eflask-btn">
           Add to Cart
         </button>
       </div>
@@ -238,7 +237,7 @@ const Shopcard = () => {
             <option value="option 2">Velvet Purple Womens Med</option>
             <option value="option 2">Velvet Purple Womens Sm</option>
           </select>
-          <button className="drink-btn" id="og-btn">
+          <button className="drink-btn" id="shirt-btn">
             Add to Cart
           </button>
         </div>
