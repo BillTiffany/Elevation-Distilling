@@ -2,6 +2,7 @@ import React from "react";
 import swag1 from "../images/espresso-swag.jpg";
 import swag2 from "../images/og-swag.jpg";
 import swag3 from "../images/tower.jpg";
+import swag4 from "../images/shades-yellow2.jpg";
 
 const Swag = () => {
   return (
@@ -15,6 +16,7 @@ const Swag = () => {
       <img src={swag1} alt="swag1" className="scv-pic" />
       <img src={swag2} alt="swag2" className="scv-pic" />
       <img src={swag3} alt="tower" className="scv-pic" />
+      <img src={swag4} alt="yellow-shades" className="scv-pic" />
     </div>
   );
 };
