@@ -13,10 +13,10 @@ const Footer = () => {
       <Link id="footer-link" to="/">
         Home
       </Link>
-      <Link id="footer-link" to="/about">
+      {/* <Link id="footer-link" to="/about">
         About Us
-      </Link>
-      <Link id="footer-link" to="/layout">
+      </Link> */}
+      <Link id="footer-link" to="/Espresso">
         Salt City Espresso
       </Link>
       <Link id="footer-link" to="/SCV">
@@ -30,6 +30,12 @@ const Footer = () => {
       </Link>
       <Link id="footer-link" to="/LsGin">
         Lake Side Gin
+      </Link>
+      <Link id="footer-link" to="/swag">
+        Swag
+      </Link>
+      <Link id="footer-link" to="/about">
+        About Us
       </Link>
       <div className="socials">
         <a href="https://www.facebook.com/SaltCityVodka">
