@@ -13,9 +13,6 @@ const Footer = () => {
       <Link id="footer-link" to="/">
         Home
       </Link>
-      {/* <Link id="footer-link" to="/about">
-        About Us
-      </Link> */}
       <Link id="footer-link" to="/Espresso">
         Salt City Espresso
       </Link>
@@ -33,6 +30,9 @@ const Footer = () => {
       </Link>
       <Link id="footer-link" to="/swag">
         Swag
+      </Link>
+      <Link id="footer-link" to="/shop">
+        Shop
       </Link>
       <Link id="footer-link" to="/about">
         About Us
